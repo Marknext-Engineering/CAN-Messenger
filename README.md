@@ -1,4 +1,4 @@
-# CANoe HEX ReFlash Manager
+# CAN File Manager
 
 CAN-FD 기반 1:1 파일 송수신 Messenger (Windows / .NET 9 / WPF).
 Vector VN16xx, PEAK PCAN-USB FD 인터페이스를 지원하며 ISO-TP(ISO 15765-2) 위에
