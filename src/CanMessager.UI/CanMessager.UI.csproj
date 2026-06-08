@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CanMessager.Core\CanMessager.Core.csproj" />
+    <ProjectReference Include="..\CanMessager.Hal\CanMessager.Hal.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+
+    <!-- 제품/실행파일 표시명 (내부 네임스페이스는 CanMessager 유지) -->
+    <AssemblyName>CANoe HEX ReFlash Manager</AssemblyName>
+    <Product>CANoe HEX ReFlash Manager</Product>
+    <AssemblyTitle>CANoe HEX ReFlash Manager</AssemblyTitle>
+    <Version>1.0.0</Version>
+    <RootNamespace>CanMessager.UI</RootNamespace>
+  </PropertyGroup>
+
+</Project>

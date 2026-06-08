@@ -1,0 +1,24 @@
+# ---- .NET build artifacts ----
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.suo
+.vs/
+
+# ---- Publish / packaging artifacts (대용량 바이너리) ----
+publish/
+dist/
+
+# ---- Test / coverage ----
+[Tt]est[Rr]esults/
+*.coverage
+*.trx
+
+# ---- OS / editor ----
+Thumbs.db
+.DS_Store
+*.swp
